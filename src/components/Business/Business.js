@@ -3,8 +3,8 @@ import './Business.css';
 
 
 export class Business extends React.Component {
-
     render() {
+        const {business} = this.props;
         return (
             <div className="Business">
                 <div className="image-container">
